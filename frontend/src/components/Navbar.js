@@ -65,12 +65,11 @@ export default function Navigation() {
 
   return (
     <Box component="nav" className={classes.root}>
-      <AppBar style={{ background: "white" }} position="static">
+      <AppBar color="primary" position="static">
         <Toolbar>
           <Typography
             variant="h6"
             component="h6"
-            color="primary"
             className={classes.title}
             align="center"
           >
@@ -80,7 +79,7 @@ export default function Navigation() {
             <div>
               <IconButton
                 edge="start"
-                color="primary"
+                style={{ color: "white" }}
                 aria-lavel="menu"
                 onClick={handleMenu}
               >
@@ -110,28 +109,53 @@ export default function Navigation() {
             </div>
           ) : (
             <div className={classes.headerOptions}>
-              <Button color="primary">
-                <Typography variant="h7" component="h7" color="primary">
+              <Button>
+                <Typography
+                  style={{ color: "white" }}
+                  variant="h7"
+                  component="h7"
+                  color="primary"
+                >
                   Home
                 </Typography>
               </Button>
-              <Button color="primary">
-                <Typography variant="h7" component="h7" color="primary">
+              <Button>
+                <Typography
+                  style={{ color: "white" }}
+                  variant="h7"
+                  component="h7"
+                  color="primary"
+                >
                   Ecriture
                 </Typography>
               </Button>
-              <Button color="primary">
-                <Typography variant="h7" component="h7" color="primary">
+              <Button>
+                <Typography
+                  style={{ color: "white" }}
+                  variant="h7"
+                  component="h7"
+                  color="primary"
+                >
                   Photo
                 </Typography>
               </Button>
-              <Button color="primary">
-                <Typography variant="h7" component="h7" color="primary">
+              <Button>
+                <Typography
+                  style={{ color: "white" }}
+                  variant="h7"
+                  component="h7"
+                  color="primary"
+                >
                   Enseignement
                 </Typography>
               </Button>
-              <Button color="primary">
-                <Typography variant="h7" component="h7" color="primary">
+              <Button>
+                <Typography
+                  style={{ color: "white" }}
+                  variant="h7"
+                  component="h7"
+                  color="primary"
+                >
                   About
                 </Typography>
               </Button>
